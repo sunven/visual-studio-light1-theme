@@ -2,23 +2,26 @@
 	"name": "visual-studio-light1-theme",
 	"displayName": "Visual Studio Light1 Theme",
 	"description": "Visual Studio Light1 Theme",
-	"icon": "images/Capture.png",
-	"version": "1.0.2",
+	"version": "2.0.0",
 	"publisher": "wenquansun",
 	"engines": {
-		"vscode": "^0.10.1"
+		"vscode": "*"
 	},
 	"categories": [
 		"Themes"
 	],
 	"contributes": {
-		"themes": [
-			{
-				"label": "Visual Studio Light1 Theme",
-				"uiTheme": "vs",
-				"path": "./themes/VisualStudioLight1Theme.tmTheme"
-			}
-		]
+		"themes": [{
+			"id": "Visual Studio Light1",
+			"label": "Visual Studio Light1 Theme",
+			"uiTheme": "vs",
+			"path": "./themes/light_vs.json"
+		}, {
+			"id": "Visual Studio Light1 +",
+			"label": "Visual Studio Light1 Theme +",
+			"uiTheme": "vs",
+			"path": "./themes/light_plus.json"
+		}]
 	},
 	"__metadata": {
 		"id": "92202270-e4c6-4e0d-887b-f79597e2200f",
