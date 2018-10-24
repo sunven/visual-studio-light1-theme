@@ -2,7 +2,7 @@
 	"name": "visual-studio-light1-theme",
 	"displayName": "Visual Studio Light1 Theme",
 	"description": "Visual Studio Light1 Theme",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"publisher": "wenquansun",
 	"engines": {
 		"vscode": "*"
@@ -10,22 +10,29 @@
 	"categories": [
 		"Themes"
 	],
+	"keywords": [
+		"theme",
+		"visual studio",
+		"light"
+	],
+	"homepage": "https://github.com/sunven/visual-studio-light1-theme",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sunven/visual-studio-light1-theme.git"
+	},
+	"bugs": {
+		"url": "https://github.com/sunven/visual-studio-light1-theme/issues"
+	},
+	"icon": "icon.png",
 	"contributes": {
 		"themes": [{
-			"id": "Visual Studio Light1",
 			"label": "Visual Studio Light1 Theme",
 			"uiTheme": "vs",
 			"path": "./themes/light_vs.json"
 		}, {
-			"id": "Visual Studio Light1 +",
 			"label": "Visual Studio Light1 Theme +",
 			"uiTheme": "vs",
 			"path": "./themes/light_plus.json"
 		}]
-	},
-	"__metadata": {
-		"id": "92202270-e4c6-4e0d-887b-f79597e2200f",
-		"publisherId": "d762937f-3c99-4d99-b29b-950ec48815e0",
-		"publisherDisplayName": "wenquansun"
 	}
 }
