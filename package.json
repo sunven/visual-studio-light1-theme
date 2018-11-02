@@ -2,7 +2,7 @@
 	"name": "visual-studio-light1-theme",
 	"displayName": "Visual Studio Light1 Theme",
 	"description": "Visual Studio Light1 Theme",
-	"version": "2.0.1",
+	"version": "2.0.2",
 	"publisher": "wenquansun",
 	"engines": {
 		"vscode": "*"
